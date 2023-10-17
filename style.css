@@ -1,0 +1,35 @@
+*{
+  font-family: 'Pacifico', cursive;
+}
+
+body{
+  background-color: #FC4C02;
+}
+
+.title h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.header{
+  display: flex;
+  margin-top: 70px;
+}
+
+#distance{
+  padding: 10px;
+}
+
+#heartrate-chart{
+  padding: 10px;
+}
+
+#distance, #heartrate-chart{
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#average_pace{
+  margin-top: 100px;
+}
